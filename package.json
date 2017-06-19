@@ -1,0 +1,40 @@
+{
+  "name": "site-mobile-friendly",
+  "version": "1.0.0",
+  "description": "Checks if the site is mobile-friendly (by Google Search Console API). Renders detailed reports.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnigBhaumik/site-mobile-friendly.git"
+  },
+  "keywords": [
+    "mobile",
+    "mobile-friendly",
+    "google",
+    "googleapi",
+	"mobile-check",
+	"mobile-test",
+	"metrics",
+    "performance"
+  ],
+  "author": "Snig Bhaumik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnigBhaumik/site-mobile-friendly/issues"
+  },
+  "_npmUser": {
+    "name": "snig.bhaumik",
+    "email": "snig_bb@yahoo.com"
+  },  
+  "dependencies": {
+    "chalk": "^1.1.3",
+	"yargs": "^8.0.2",
+	"gulp": "^3.7.0",
+	"request": "^2.81.0",
+	"is-json": "^2.0.1"
+  },
+  "homepage": "https://github.com/SnigBhaumik/site-mobile-friendly#readme"
+}
