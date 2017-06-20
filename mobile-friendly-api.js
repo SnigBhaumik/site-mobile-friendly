@@ -10,13 +10,16 @@
 
 var utils = require('./lib/utils');
 
-exports.process = function(params) { 
+module.exports = function (params, cb) { 
+	cb = cb || function () {};
+  
 	var opts = {
 		apiKey: params.apiKey || 'your_key',
 		site: utils.addHttp(params.site)
 	};
 
-	utils.process(opts, cb) {
-		return cb;
+	utils.process(opts, function(err) {
+		cb(err);
 	});
 }
+
