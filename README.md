@@ -2,7 +2,7 @@
 Checks if the site is mobile-friendly (by Google Search Console API). Renders detailed reports.
 
 # Sample Output (by Node CLI)
-![Mobile Friendly Test Result](site-mobile-friendly/screens/mobile-test-result.png?raw=true)
+![Mobile Friendly Test Result](https://github.com/SnigBhaumik/site-mobile-friendly/blob/master/screens/mobile-test-result.png?raw=true)
  
 # Installing
 ```sh
