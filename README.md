@@ -7,7 +7,10 @@ Checks if the site is mobile-friendly (by Google Search Console API). Renders de
 # Installing
 ```sh
 $ npm install --save site-mobile-friendly
+$ site-mobile-friendly --apiKey <<your-key>> --site www.google.com
 ```
+
+Hint: For local development run `npm link` in your git folder to make it available as a command named `site-mobile-friendly` for your system.
 
 # Background
 > Part of our Dev Ops automation process. After deploying the application in one of the servers, Mobile friendly testing should have been done automatically. This Node module is used and triggered by Jenkins build pipeline to report the web portal mobile friendlyness.
